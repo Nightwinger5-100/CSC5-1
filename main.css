@@ -1,0 +1,49 @@
+
+   /* This is for my bg color and text color of my pages */
+    body {
+        background-color: rgb(7, 225, 254);
+        color:rgb(255, 255, 255);
+    }
+    
+    /* nav positions */
+    nav {
+        height: 200px;
+        width: 200px;
+        float: left;
+        padding: 5px;
+        line-height: 30px;
+    }
+
+    /*footer positions */
+    footer {
+    text-align: center;
+    margin-right: 200px;
+    }
+    
+    /*meme image position*/
+    typo.jpg {
+    margin-right: 200px;
+    }
+
+    /*header position*/
+    header {
+    text-align: center;    
+    }
+
+        /* buttons */
+        .startButton {
+            height: 50px;
+            width: 300px;
+            border-radius: 50px;
+            background-color: rgb(43, 226, 52);
+            border-color: rgb(0, 0, 0);
+        }
+    
+        /* buttons */
+        .stopButton {
+            height: 50px;
+            width: 300px;
+            border-radius: 50px;
+            background-color: rgb(255, 0, 0);
+            border-color: rgb(0, 0, 0);
+        } 

@@ -1,0 +1,123 @@
+    <!DOCTYPE html>
+    
+    <!--Kareem Robinson
+    KARROBIN@uat.edu
+    10/10/2023
+    This is my 5-1 assignment for CSC102
+    In this assignment I must make my naviagation for my webpages and create a table with a list of information
+    -->
+    <html lang="en">
+
+    <!--This is my header containing my title-->
+    <head>
+        <script src = "indexCode.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kareem Robinson's Website</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+
+    <script>
+    //This is a javascript comment
+    </script>
+<header>
+    <!--This is my header containing my text atop the webpage-->
+    <h1>Welcome to Kareem Robinson's Webpage</h1>
+</header>
+
+ <!--Easy access to the other pages-->
+<nav>
+<h2>
+Navigation
+</h2>
+<a href = "./boards.html">Boards</a><br>
+<a href = "./games.html">Games</a><br>
+<a href = "./stringCode.html">String Code</a><br>
+</nav>
+    <!--This is me testing the paragraph tag and break.-->
+    <p>Testing a paragraph tag. It's main purpose is to display a paragraph seperately.</p>
+
+    Outside the paragraph.<br>And this is the next line.
+
+    <!--This is my meme image that will be shown-->
+    <marquee id="myMarquee" direction="right">
+    <img id= "typo" src="typo.jpg">
+    </marquee>
+
+    <!--Button to start the movement of the image-->
+    <h2>Control the movement of the image</h2>
+    <button onclick = "startMove();"  id = "startButton" class = "startButton" >Start</button>
+    <br>
+    <!--Button to stop the movement of the image-->
+    <button onclick = "stopMove();" id = "stopButton"  class = "stopButton">Stop</button>
+    <br>
+    <br>
+    <br>
+    <!--Table Title-->
+    <h2>Highest Grossing Anime Games</h2>
+    <!--Table size-->
+    <style>    
+    td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    }
+    </style>
+    <table style: width = "100%">
+
+    <!--Table Contents-->
+    <tr>
+    <th>Earnings</th>
+    <th>Title</th>
+    <th>Year</th>
+    </tr>
+
+    <tr>
+    <th>11.8 million</th>
+    <th>Naruto Storm 4</th>
+    <th>2016</th>       
+    </tr>
+    
+    <tr>
+    <th>10 million</th>
+    <th>DB Fighterz</th>
+    <th>2018</th>
+    </tr>
+
+    <tr>
+    <th>10 million</th>
+    <th>DBZ Xenoverse 2</th>
+    <th>2018</th>
+    </tr>
+
+    <tr>
+    <th>6.12 million</th>
+    <th>Jump Force</th>
+    <th>2019</th>
+    </tr>
+
+    <tr>
+    <th>6 million</th>
+    <th>DBZ Kakarot</th>
+    <th>2020</th>
+    </tr>
+    
+    </table>
+    <br>
+    <br>
+    <br>
+    <!--Storm 4 cover art-->
+    <center><img src = "storm.png"> </center>
+    <br>
+    <br>
+    <br>
+    <footer>
+    Kareem Robinson<br>
+    University of Advancing Technology<br>
+    85283-1056<br>
+    Tempe, AZ, 2625 W. Baseline Road <br>
+    </footer>
+    </body>
+    </html>
